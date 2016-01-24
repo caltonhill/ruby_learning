@@ -1,17 +1,20 @@
-#until loop structure is like this:
-#until (some comparison)
-#	statements
-#end
-# until the comparison becomes true the statements are executed
-#count = 0
-#until count >=5
-#	puts "arsecake"
-#	count += 1
-#end	
-sum = 0
-number = 1
-until number > 10
-	sum += number
-	number += 1
+
+counter = 1
+
+until counter == 7
+  puts counter
+  puts "BlubberCheeks"
+  counter +=1
 end
-puts sum
+
+total = 0
+number = 1
+
+until number > 10
+  total += number
+  puts number
+  puts total
+  number += 1
+end
+
+puts total
